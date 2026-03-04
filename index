@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poezii - Mihai Eminescu</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f0;
+        }
+
+        header {
+            background-color: #8b3a62;
+            color: white;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .book-section {
+            background-color: #f0e6e6;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .biography-section {
+            background-color: #e6f0f0;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .legacy-section {
+            background-color: #f0e6f0;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-image {
+            border: 4px solid #8b3a62;
+            border-radius: 6px;
+            display: inline-block;
+            margin: 20px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .book-image:hover {
+            transform: scale(1.05);
+        }
+
+        .book-image img {
+            display: block;
+            height: 250px;
+            width: 200px;
+            border-radius: 4px;
+        }
+
+        .quote {
+            color: #8b3a62;
+            font-style: italic;
+            font-size: 1.1em;
+            margin: 20px 0;
+            padding: 15px 20px;
+            border-left: 5px solid #8b3a62;
+            background-color: rgba(139, 58, 98, 0.08);
+            border-radius: 4px;
+        }
+
+        h2 {
+            color: #8b3a62;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+
+        a {
+            color: #8b3a62;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 2px solid #8b3a62;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #b85a7f;
+        }
+
+        p {
+            text-align: justify;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poezii</h1>
+        <p>A masterpiece by Mihai Eminescu</p>
+    </header>
+
+    <div class="container">
+        <div class="book-section">
+            <h2>About the Book</h2>
+            <p>
+                <b>Poezii</b> is a remarkable collection of poems that showcases the extraordinary talent of Romania's 
+                greatest poet, <u>Mihai Eminescu</u>. The title translates to <i>Poems</i> in English, representing one 
+                of the most significant literary works in Romanian culture. This collection captures the essence of 
+                romantic poetry, blending deep philosophical reflections with lyrical beauty.
+            </p>
+
+            <div class="book-image">
+                <a href="https://en.wikipedia.org/wiki/Mihai_Eminescu" title="Learn more about Mihai Eminescu on Wikipedia">
+                    <img src="img.jpeg" alt="Book cover of Poezii by Mihai Eminescu" title="Click to open Wikipedia">
+                </a>
+            </div>
+
+            <p>
+                The poems in this collection explore themes of love, nature, spirituality, and the human condition. 
+                Each verse is crafted with meticulous attention to language and form, making <b>Poezii</b> an 
+                essential read for anyone interested in 19th-century European poetry. For a deeper understanding of 
+                the historical context and literary significance of these works, <a href="https://en.wikipedia.org/wiki/Mihai_Eminescu">
+                I recommend visiting the comprehensive Wikipedia article about Mihai Eminescu</a>.
+            </p>
+
+            <div class="quote">
+                "I wish I were but a grave, where the moon would shine and rest..."
+            </div>
+        </div>
+
+        <div class="biography-section">
+            <h2>The Author: Mihai Eminescu</h2>
+            <p>
+                <u>Mihai Eminescu</u> (1850-1889) was a Romantic poet, philosopher, and journalist who is 
+                regarded as the most important Romanian writer and poet of all time. Born in Botoşani, Eminescu 
+                spent much of his youth traveling across Europe, which profoundly influenced his literary voice. 
+                His works are characterized by a melancholic depth, intricate metaphors, and a profound engagement 
+                with existential questions.
+            </p>
+
+            <p>
+                Despite his brief life cut short by mental illness, Eminescu left behind a legacy that defined 
+                Romanian literature and influenced generations of poets and writers. His poems, collected in 
+                <b>Poezii</b>, remain widely celebrated and studied in schools and universities throughout Romania 
+                and beyond. The depth of his imagination and the beauty of his language continue to captivate 
+                readers more than a century after his death.
+            </p>
+        </div>
+
+        <div class="legacy-section">
+            <h2>Literary Legacy</h2>
+            <p>
+                The <b>Poezii</b> collection stands as a testament to Eminescu's genius and continues to be a source 
+                of inspiration for artists, musicians, and writers. His influence extends far beyond Romania, with his 
+                works translated into numerous languages and studied in academic institutions worldwide. The themes he 
+                explored—love, loss, nature, and the search for meaning—remain eternally relevant.
+            </p>
+
+            <div class="quote">
+                "I have loved you in a thousand different forms and I will love you in a thousand more..."
+            </div>
+
+            <p>
+                Reading <b>Poezii</b> is not merely an engagement with historical literature; it is a journey into 
+                the human soul. Eminescu's poems invite readers to reflect on their own experiences and emotions, 
+                making each reading a deeply personal experience. Whether you are a student of literature or simply 
+                a lover of beautiful words, this collection offers profound insights and unforgettable verses that 
+                will stay with you long after you finish reading.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
